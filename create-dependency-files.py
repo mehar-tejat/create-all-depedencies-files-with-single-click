@@ -1,3 +1,13 @@
+'''
+1.gitkeep is for ci and cd, in this configuration will be ther for ci/cd
+2.src is source code
+3.inside src, we have component, i.e eda, feature engineering, model training each one of it is 
+called as a components, all together called as training pipeline
+4. exception.py inside this we can write 
+
+
+'''
+
 import os
 
 # we can create system compatable path, this will take care of slashes while reading files  
@@ -11,14 +21,14 @@ list_of_files=[
     'src/components/data_ingestion.py',
     'src/components/data_transformation.py',
     'src/components/model_trainer.py',
-    'src/components/model_evaluation.py'
+    'src/components/model_evaluation.py',
     'src/pipeline/__init__.py',
     'src/pipeline/training_pipeline.py',
     'src/pipeline/prediction_pipeline.py',
     'src/utils/__init__.py',
     'src/utils/utils.py',
     'src/logger/logging.py',
-    'src/exception/exception'
+    'src/exception/exception.py',
     'tests/unit/__init__.py',
     'tests/integration/__init__.py',
     'init_setup.sh',
